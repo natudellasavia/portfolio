@@ -168,14 +168,17 @@ strong{
 
 .sobreMi p{
     padding: 0px 40px 0px 40px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
 }
 
-h4{
+.tecnologias{
     padding: 0px 0px 0px 40px;
     font-size: 20px;
     display: inline-block;
+}
+
+.contenedorTecnologias{
     margin-bottom: 50px;
 }
 
