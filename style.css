@@ -151,24 +151,31 @@ strong{
 }
 
 .fotoSobreMi{
-    max-width: 100%;
-    min-width: 200px; 
+    min-width: 200px;
+    max-width: 70%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
 
 .sobreMi h2{
-    padding-left: 20px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
     color: #FF4B3A;
     display: inline-block;
     font-size: 30px;
 }
 
 p{
-    padding: 0px 20px 0px 20px;
+    padding: 0px 40px 0px 40px;
     font-size: 20px;
     text-align: justify;
+}
+
+.tecnologias{
+    display: inline;
+    padding: 0px 10px 0px 40px;
 }
 
 
@@ -185,6 +192,7 @@ p{
 .card{
     border-radius: 10px; /* redondea todas las esquinas */
     overflow: hidden;     /* importante si la card tiene imágenes dentro */
+    padding: 20px;
 }
 
 .card .btn{
@@ -222,7 +230,7 @@ p{
 
 .pic{
     padding-top: 5px;
-    width: 150px;
+    width: 250px;
     display: block;
     margin: 0 auto;
 }
