@@ -9,6 +9,10 @@ html {
     scroll-behavior: smooth;
 }
 
+p{
+    color: #010D23;
+}
+
 /* ---------- HEADER ---------- */
 
 header{
@@ -175,7 +179,7 @@ p{
 }
 
 .card .btn{
-        display: block;   /* importante para que margin auto funcione */
+    display: block;   /* importante para que margin auto funcione */
     margin: 0 auto;   /* centra horizontalmente */
     color: #FF4B3A;
     font-weight: 600;
@@ -187,7 +191,7 @@ p{
 }
 
 .misProyectos h2{
-    color: #FFA431;
+    color: #F2F3F5;
     font-size: 22px;
     padding-top: 10px;
 }
@@ -218,3 +222,39 @@ p{
 }
 
 
+/* ---------- CONTACTO ---------- */
+
+.contacto{
+    background: #F2F3F5;
+    max-height: 90%;   /* se ajusta al contenedor */
+    min-width: 300px;   /* nunca más chica que 250px */
+
+}
+
+.contacto h2{
+    color: #010D23;
+    font-size: 22px;
+    padding-left: 50px;
+}
+
+.mb-3{
+    margin: 0px 60px 0px 50px;
+}
+
+.imagenContacto{
+    max-width: 50%;
+    min-width: 200px; 
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.imagenContacto:hover{
+    content: url("imagenes/imagenContactoRojo.png");
+}
+
+.col-md-6.d-flex {
+    display: flex;          /* activa Flexbox */
+    justify-content: center; /* centra horizontalmente */
+    align-items: center;     /* centra verticalmente */
+}
