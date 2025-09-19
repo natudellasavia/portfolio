@@ -21,7 +21,7 @@ a{
 /* ---------- HEADER ---------- */
 
 header{
-    height: 45px;
+    height: 60px;
     background: #010D23;
     position: fixed;
     top: 0;
@@ -69,7 +69,7 @@ strong{
 
 .inicial{
     width: 100%;
-    padding-top: 50px; /* igual al alto del header, para que no tape */
+    padding-top: 60px; /* igual al alto del header, para que no tape */
 }
 
 .inicial .col-md-6{
@@ -84,6 +84,7 @@ strong{
     color: #F2F3F5;
     display: inline-block;
     padding-left: 15px;
+    padding-right: 5px;
     font-size: 50px;
 }
 
@@ -91,6 +92,7 @@ strong{
     color: #F2F3F5;
     display: inline-block;
     padding-left: 15px;
+    padding-right: 5px;
     font-size: 40px;
 }
 
@@ -99,9 +101,9 @@ strong{
     margin-left: 20px;
     font-weight: 600;
     display: flex;
-    align-items: center;      /* alineación vertical */
-    gap: 15px;                /* espacio entre botón e íconos */
-    flex-wrap: wrap;           /* permite que se apilen en mobile */
+    align-items: center;
+    gap: 15px; /* espacio entre botón e íconos */
+    flex-wrap: wrap; /* permite que se apilen en mobile */
 }
 
 .inicial .btn:hover{
@@ -112,10 +114,10 @@ strong{
 }
 
 .boton-redes {
-    display: flex;            /* línea horizontal */
-    align-items: center;      /* alinear verticalmente */
-    gap: 20px;                /* espacio entre botón y cada ícono */
-    flex-wrap: wrap;          /* en mobile se apilan si hace falta */
+    display: flex;
+    align-items: center;
+    gap: 20px; /* espacio entre botón y cada ícono */
+    flex-wrap: wrap; /* permite que se apilen en mobile */
 }
 
 .iconoInicioGitHub,
@@ -134,8 +136,8 @@ strong{
 }
 
 .imagenInicial{
-    max-width: 80%;   /* se ajusta al contenedor */
-    min-width: 300px;   /* nunca más chica que 250px */
+    max-width: 80%;   /* se ajusta al contenedor en % */
+    min-width: 300px;
     height: auto;
     display: block;
     margin: 0 auto;  
@@ -194,14 +196,14 @@ strong{
 }
 
 .card{
-    border-radius: 10px; /* redondea todas las esquinas */
-    overflow: hidden;     /* importante si la card tiene imágenes dentro */
+    border-radius: 10px;
+    overflow: hidden; /* importante si la card tiene imágenes dentro */
     padding: 20px;
 }
 
 .card .btn{
-    display: block;   /* importante para que margin auto funcione */
-    margin: 0 auto;   /* centra horizontalmente */
+    display: block;
+    margin: 0 auto; /* centra horizontalmente */
     color: #FF4B3A;
     font-weight: 600;
     padding-bottom: 10px;
@@ -236,7 +238,7 @@ strong{
     padding-top: 5px;
     width: 250px;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto;  /* centra horizontalmente */
 }
 
 .img-fluid{
@@ -248,12 +250,11 @@ strong{
 
 .contacto{
     background: #F2F3F5;
-    max-height: 90%;   /* se ajusta al contenedor */
-    min-width: 300px;   /* nunca más chica que 250px */
+    max-height: 90%;
+    min-width: 300px;
 }
 
 .contacto h2{
-    color: #010D23;
     font-size: 22px;
     margin-bottom: 15px;
 }
@@ -294,6 +295,6 @@ strong{
 footer p{
     text-align: center;
     color: #F2F3F5;
-    padding-top: 20px;
+    padding: 20px 0px 0px 0px;
     font-size: 10px;
 }
