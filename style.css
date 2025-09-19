@@ -77,20 +77,20 @@ strong{
 }
 
 .inicial h1:nth-child(1){
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 .inicial h1{
     color: #F2F3F5;
     display: inline-block;
-    padding-left: 20px;
+    padding-left: 15px;
     font-size: 50px;
 }
 
 .inicial h2{
     color: #F2F3F5;
     display: inline-block;
-    padding-left: 20px;
+    padding-left: 15px;
     font-size: 40px;
 }
 
@@ -167,7 +167,7 @@ strong{
 }
 
 .sobreMi p{
-    padding: 0px 40px 0px 40px;
+    padding: 0px 30px 0px 30px;
     font-size: 18px;
     text-align: justify;
 }
@@ -179,7 +179,7 @@ strong{
 }
 
 .contenedorTecnologias{
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
