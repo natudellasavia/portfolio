@@ -12,10 +12,10 @@
 <body>
     <header>
         <nav>
-            <a href=""><img src="imagenes/logoNatiGris.png" alt="" class="logo"></a>
+            <a href="#"><img src="imagenes/logoNatiGris.png" alt="" class="logo"></a>
             <ul>
-                <li><a href="">Sobre mí</a></li>
-                <li><a href="">Proyectos</a></li>
+                <li><a href="#sobreMi">Sobre mí</a></li>
+                <li><a href="#misProyectos">Proyectos</a></li>
                 <li><a href="">Contacto</a></li>
             </ul>
         </nav>
@@ -32,10 +32,10 @@
 
                     <div class="boton-redes">
                         <button type="button" class="btn">Mirá mis proyectos</button>
-                        <a href="https://github.com/natudellasavia">
+                        <a href="https://github.com/natudellasavia" target="_blank">
                             <img src="imagenes/logoGitHubAmarillo.png" alt="" class="iconoInicioGitHub">
                         </a>
-                        <a href="https://www.linkedin.com/in/natali-dellasavia/">
+                        <a href="https://www.linkedin.com/in/natali-dellasavia/" target="_blank">
                             <img src="imagenes/logoLinkedInAmarillo.png" alt="" class="iconoInicioLinkedIn">
                         </a>
                     </div>
@@ -48,7 +48,7 @@
         </div>
     </section>
 
-    <section class="sobreMi">
+    <section id="sobreMi" class="sobreMi">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
@@ -68,7 +68,61 @@
         </div>
     </section>
 
+    <!----------          MIS PROYECTOS          ---------->
+    <section id="misProyectos" class="misProyectos espacios">
+        <div class="container">
 
+            <div class="row">
+                <div class="col-md 12 centrado">
+                    <h2>Mis proyectos</h2>
+                </div>
+            </div>
+
+            <div class="row espacios">
+
+                <div class="col-md-4 espacios">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="imagenes/proyectoRamas.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Juego de memoria</h3>
+                            <p>Los botones deben ser presionados en un orden. El usuario debe descubrirlo, memorizarlo y repetirlo entero.</p>
+                            <a href="https://github.com/natudellasavia/ramasguias" class="btn"  target="_blank">Ver en github</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 espacios">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="imagenes/proyectoGestor.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Gestión de artículos</h3>
+                            <p>lorem ipsum lorem ipsum lorem ipsum lorem ilorem em ipsumem ipsumem ipsum lorem ipsum lorem ipsumlorem ipsum</p>
+                            <a href="https://github.com/bautihauretdev/tp-winform-equipo-17A" class="btn"  target="_blank">Ver en github</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 espacios">
+                    <div class="card">
+                        <div class="pic">
+                            <img src="imagenes/proyectoConversor.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Conversor de divisa</h3>
+                            <p>Página web donde se puede seleccionar entre tres tipos diferentes de divisas y cambiar entre sí ingresando el monto inicial por teclado</p>
+                            <a href="https://github.com/natudellasavia/conversor-de-moneda" class="btn"  target="_blank">Ver en github</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
 
     <footer></footer>
 </body>

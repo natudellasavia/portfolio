@@ -5,11 +5,19 @@ body{
     font-weight: 600;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* ---------- HEADER ---------- */
 
 header{
-    height: 50px;
+    height: 45px;
     background: #010D23;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Que el header quede encima de todo */
 }
 
 .logo{
@@ -53,6 +61,7 @@ strong{
 
 .inicial{
     width: 100%;
+    padding-top: 50px; /* igual al alto del header, para que no tape */
 }
 
 .inicial .col-md-6{
@@ -153,4 +162,59 @@ p{
     font-size: 15px;
     text-align: justify;
 }
+
+
+/* ---------- MIS PROYECTOS ---------- */
+
+.centrado{
+    text-align: center;
+}
+
+.espacios{
+    padding: 10px;
+}
+
+.card .btn{
+        display: block;   /* importante para que margin auto funcione */
+    margin: 0 auto;   /* centra horizontalmente */
+    color: #FF4B3A;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.card .btn:hover{
+    color: #FFA431;
+}
+
+.misProyectos h2{
+    color: #FFA431;
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+.misProyectos h3{
+    color: #FFA431;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.misProyectos p{
+    font-size: 14px;
+    line-height: 1.1;
+    padding: 0px 15px 0px 15px;
+    margin: 0px;
+}
+
+.pic{
+    padding-top: 5px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-fluid{
+    border-radius: 10px;
+}
+
 
