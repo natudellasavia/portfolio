@@ -42,3 +42,54 @@ nav ul li a{
 nav ul li a:hover{
     color: #FFA431;
 }
+
+strong{
+	color: #FFA431;
+}
+
+.inicial{
+    width: 100%;
+    height: 100vh;
+    /*
+    background: url(/imagenes/imagenInicio.png)center center fixed;
+    background-size: cover;
+    */
+}
+
+.inicial .col-md-6{
+    text-align: left;
+}
+
+.inicial h1:nth-child(1){
+    margin-top: 20vh;
+}
+
+
+.inicial h1{
+    color: #F2F3F5;
+    display: inline-block;
+    padding: 15px;
+    font-size: 32px;
+}
+
+.inicial h2{
+    color: #F2F3F5;
+    display: inline-block;
+    padding: 15px;
+    font-size: 22px;
+}
+
+.inicial .btn{
+    background: #FFA431;
+    margin-left: 15px;
+    font-weight: 600;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.imagenInicial{
+    width: 80%;
+    padding: 50px 0px 0px 0px;
+}
