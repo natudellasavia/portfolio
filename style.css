@@ -13,6 +13,11 @@ p{
     color: #010D23;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 /* ---------- HEADER ---------- */
 
 header{
@@ -73,14 +78,14 @@ strong{
 }
 
 .inicial h1:nth-child(1){
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 
 .inicial h1{
     color: #F2F3F5;
     display: inline-block;
     padding-left: 20px;
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .inicial h2{
@@ -158,12 +163,12 @@ strong{
     padding-left: 20px;
     color: #FF4B3A;
     display: inline-block;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 p{
     padding: 0px 20px 0px 20px;
-    font-size: 15px;
+    font-size: 12px;
     text-align: justify;
 }
 
@@ -178,12 +183,18 @@ p{
     padding: 10px;
 }
 
+.card{
+    border-radius: 10px; /* redondea todas las esquinas */
+    overflow: hidden;     /* importante si la card tiene imágenes dentro */
+}
+
 .card .btn{
     display: block;   /* importante para que margin auto funcione */
     margin: 0 auto;   /* centra horizontalmente */
     color: #FF4B3A;
     font-weight: 600;
     padding-bottom: 10px;
+    font-size: 15px;
 }
 
 .card .btn:hover{
@@ -192,19 +203,19 @@ p{
 
 .misProyectos h2{
     color: #F2F3F5;
-    font-size: 22px;
+    font-size: 18px;
     padding-top: 10px;
 }
 
 .misProyectos h3{
     color: #FFA431;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     padding-top: 5px;
 }
 
 .misProyectos p{
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.1;
     padding: 0px 15px 0px 15px;
     margin: 0px;
@@ -212,7 +223,7 @@ p{
 
 .pic{
     padding-top: 5px;
-    width: 200px;
+    width: 150px;
     display: block;
     margin: 0 auto;
 }
@@ -221,40 +232,11 @@ p{
     border-radius: 10px;
 }
 
+/* ---------- FOOTER ---------- */
 
-/* ---------- CONTACTO ---------- */
-
-.contacto{
-    background: #F2F3F5;
-    max-height: 90%;   /* se ajusta al contenedor */
-    min-width: 300px;   /* nunca más chica que 250px */
-
-}
-
-.contacto h2{
-    color: #010D23;
-    font-size: 22px;
-    padding-left: 50px;
-}
-
-.mb-3{
-    margin: 0px 60px 0px 50px;
-}
-
-.imagenContacto{
-    max-width: 50%;
-    min-width: 200px; 
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-.imagenContacto:hover{
-    content: url("imagenes/imagenContactoRojo.png");
-}
-
-.col-md-6.d-flex {
-    display: flex;          /* activa Flexbox */
-    justify-content: center; /* centra horizontalmente */
-    align-items: center;     /* centra verticalmente */
+footer p{
+    text-align: center;
+    color: #F2F3F5;
+    padding-top: 50px;
+    font-size: 12px;
 }
