@@ -159,7 +159,6 @@ strong{
 }
 
 .sobreMi h2{
-    padding-top: 40px;
     padding-left: 40px;
     padding-bottom: 20px;
     color: #FF4B3A;
@@ -176,6 +175,7 @@ p{
 .tecnologias{
     display: inline;
     padding: 0px 10px 0px 40px;
+    margin-bottom: 20px;
 }
 
 
@@ -242,13 +242,34 @@ p{
 
 /* ---------- CONTACTO ---------- */
 
+.contacto{
+    background: #F2F3F5;
+    max-height: 90%;   /* se ajusta al contenedor */
+    min-width: 300px;   /* nunca más chica que 250px */
+}
+
+.contacto h2{
+    color: #010D23;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.contacto .btn{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contacto .btn:hover{
+    color: #FF4B3A;
+}
+
 .iconoContactoGitHub,
 .iconoContactoLinkedIn,
 .iconoContactoMail {
     width: 40px;
     height: 40px;
     transition: transform 0.3s ease;
-    margin: 70px 10px 0px 10px;
+    margin: 70px 10px 30px 10px;
 }
 
 .iconoContactoMail:hover{
