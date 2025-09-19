@@ -166,16 +166,17 @@ strong{
     font-size: 30px;
 }
 
-p{
+.sobreMi p{
     padding: 0px 40px 0px 40px;
     font-size: 20px;
     text-align: justify;
 }
 
-.tecnologias{
-    display: inline;
-    padding: 0px 10px 0px 40px;
-    margin-bottom: 20px;
+h4{
+    padding: 0px 0px 0px 40px;
+    font-size: 20px;
+    display: inline-block;
+    margin-bottom: 50px;
 }
 
 
