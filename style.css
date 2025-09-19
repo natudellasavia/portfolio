@@ -232,11 +232,36 @@ p{
     border-radius: 10px;
 }
 
+
+/* ---------- CONTACTO ---------- */
+
+.iconoContactoGitHub,
+.iconoContactoLinkedIn,
+.iconoContactoMail {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+    margin: 70px 10px 0px 10px;
+}
+
+.iconoContactoMail:hover{
+    content: url("imagenes/iconoMailRojo.png");
+}
+
+.iconoContactoGitHub:hover{
+    content: url("imagenes/logoGitHubRojo.png");
+}
+
+.iconoContactoLinkedIn:hover{
+    content: url("imagenes/logoLinkedInRojo.png");
+}
+
+
 /* ---------- FOOTER ---------- */
 
 footer p{
     text-align: center;
     color: #F2F3F5;
-    padding-top: 50px;
-    font-size: 12px;
+    padding-top: 20px;
+    font-size: 10px;
 }
