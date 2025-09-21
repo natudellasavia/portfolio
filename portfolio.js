@@ -1,3 +1,5 @@
+// ***** FORMULARIO CONTACTO *****
+
 // Seleccionamos el formulario y el párrafo de mensaje
 const form = document.getElementById("formContacto");
 const formMsj = document.getElementById("formMsj");
@@ -24,4 +26,23 @@ form.addEventListener("submit", function (e) {
 
   // Limpiamos formulario
   form.reset();
+});
+
+// ***** MENU PLEGABLE *****
+
+const menuToggle = document.getElementById("menu-toggle");
+const navLinks = document.getElementById("nav-links");
+const header = document.querySelector("header");
+
+menuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("show");
+});
+
+// Sticky al scrollear
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 50) {
+    header.classList.add("scrolled");
+  } else {
+    header.classList.remove("scrolled");
+  }
 });
