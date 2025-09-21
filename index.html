@@ -141,26 +141,33 @@
                 <div class="col-md-6">
                     <br>
                     <h2>Contacto</h2>
-                    <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
-                    </div>
-                    <div class="mb-3">
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-                    </div>
-                    <div class="mb-3">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Mensaje"></textarea>
-                    </div>
 
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=natalidellasavia@gmail.com" target="_blank"><button type="submit" class="btn">Enviar</button></a>
+                    <form id="formContacto">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="mensaje" rows="4" placeholder="Mensaje"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
+
+                    <p id="formMsj"></p>
 
                 </div>
             </div>
         
             <div class="row">
                 <div class="col-md-12 centrado">
+                    <!--
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=natalidellasavia@gmail.com" target="_blank">
                         <img src="imagenes/iconoMailAmarillo.png" alt="" class="iconoContactoMail">
                     </a>
+                    -->
 
                     <a href="https://github.com/natudellasavia" target="_blank">
                         <img src="imagenes/logoGitHubAmarillo.png" alt="" class="iconoContactoGitHub">
@@ -178,6 +185,8 @@
     <footer>
         <p>COPYRIGHT2025 <strong>NATALI DELLA SAVIA</strong> ALL RIGHTS RESERVED</p>
     </footer>
+
+    <script src="portfolio.js"></script>
 </body>
 
 </html>
