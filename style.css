@@ -283,7 +283,8 @@ strong{
 
 .misProyectos h4{
     font-size: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: center; /* horizontal */
 }
 
 .misProyectos p{
@@ -299,7 +300,7 @@ strong{
     color: #FF4B3A;
     font-weight: 600;
     font-size: 20px;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 .card .btn:hover{

@@ -28,21 +28,25 @@ form.addEventListener("submit", function (e) {
   form.reset();
 });
 
-// ***** MENU PLEGABLE *****
+// ***** MENU DESPLEGABLE *****
 
 const menuToggle = document.getElementById("menu-toggle");
 const navLinks = document.getElementById("nav-links");
-const header = document.querySelector("header");
 
-menuToggle.addEventListener("click", () => {
+// Abrir/Cerrar menú al hacer click en el toggle
+menuToggle.addEventListener("click", (e) => {
   navLinks.classList.toggle("show");
+  e.stopPropagation(); // Evita que el click se propague al document
 });
 
-// Sticky al scrollear
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 50) {
-    header.classList.add("scrolled");
-  } else {
-    header.classList.remove("scrolled");
+// Cerrar menú al hacer click fuera
+document.addEventListener("click", (e) => {
+  if (navLinks.classList.contains("show")) {
+    navLinks.classList.remove("show");
   }
+});
+
+// Evita que clicks dentro del menú lo cierren
+navLinks.addEventListener("click", (e) => {
+  e.stopPropagation();
 });
